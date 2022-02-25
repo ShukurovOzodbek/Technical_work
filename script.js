@@ -24,7 +24,7 @@ let number = []
 let string =[]
 let bool = []
 
-let filt = Object.values(newKey).filter(item => {
+let filt = newKey.filter(item => {
     if (typeof item === 'number') {
         number.push(item)
     }else if (typeof item === 'string') {
